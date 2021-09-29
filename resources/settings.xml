@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="32001">
-        <setting label="32011" type="folder" id="mediasource" default="/mnt/braavos/photo/_slideshow/"/>
+        <setting label="32011" type="folder" id="mediasource" default=""/>
         <setting label="32012" type="bool" id="supportpictures" default="true"/>
         <setting label="32013" type="bool" id="supportvideos" default="true"/>
-        <setting label="32014" type="bool" id="supportplaylists" default="true"/>
+        <setting label="32014" type="bool" id="supportplaylists" default="false"/>
         <setting type="sep"/>
  		<setting label="32015" type="slider" id="picturedurantion" subsetting="true" default="10" range="0,5,120" option="int" />
 	</category>
