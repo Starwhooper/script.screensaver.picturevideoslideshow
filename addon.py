@@ -25,8 +25,9 @@ if addon.getSetting('supportpictures') == 'true': format_all = format_all + form
 if addon.getSetting('supportvideos') == 'true': format_all = format_all + format_video
 if addon.getSetting('supportplaylists') == 'true': format_all = format_all + format_playlist
 
-picture_duration = int(addon.getSetting('picturedurantion')) * 100
-#picture_duration = 5000
+picture_duration = int(addon.getSetting('picturedurantion')) * 1000
+
+#xbmcgui.Dialog().ok('Print',str(picture_duration))
 
 while True:
  files = os.listdir(mediasource)
